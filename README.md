@@ -5,6 +5,7 @@
 ## 系统组成及功能说明 /System Construction & Function Description
 系统组成主要分为三部分：FPGA模块，ESP32,AWS IOT平台</br>
 功能：搭建 FPGA+ESP32+AWS IOT通信平台</br>
+![Image text](https://raw.githubusercontent.com/Tilly-xct/xctzzl/master/images/%E6%A8%A1%E5%9D%97.PNG)</br>
 ### （1）.FPGA:主要含有四个模块，IIC driver、Gyro driver、RAM、QSPI Slave.
 Gyro driver模块负责解析原始陀螺仪数据，并对数据进行滤波处理。</br>
 IIC driver模块负责解析Gyro driver模块传输的数据，实现对板载陀螺仪数据的读取与发送。</br>
